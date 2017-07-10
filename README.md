@@ -2,6 +2,13 @@
 
 #### Topics
 
+
+##### States
+- committed
+- modified
+- staged
+
+
 ##### Basics
 - status
 - log
