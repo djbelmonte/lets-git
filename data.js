@@ -5,7 +5,7 @@ class People {
     occupation: 'minesweeper',
   };
 
-  happy = {
+  let happy = {
     name: 'happy',
     age: '21',
     occupation: 'drugbender',
