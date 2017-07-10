@@ -1,9 +1,27 @@
 import People from './data';
 
-const Profile () => {
+class Bulletin extends Component {
+  render() {
+    return (
+      <Profile name={People.john.name}
+               age={People.john.age}
+               occupation={People.john.occupation} />
+
+      <Profile name={People.happy.name}
+               age={People.happy.age}
+               occupation={People.happy.occupation} />
+
+      <Profile name={People.bucky.name}
+               age={People.bucky.age}
+               occupation={People.bucky.occupation} />
+    );
+  }
+}
+
+const Profile (props) => {
   return (
-    <h2> {People.john.name}</h4>
-    <h4> {People.john.age} </h4>
-    <h4> {People.john.occupation} </h4>
+    <h2> {props.name}</h4>
+    <h4> {props.age} </h4>
+    <h4> {props.occupation} </h4>
   );
 }
