@@ -4,9 +4,10 @@
 
 
 ##### States
-- committed
+- (untracked)
 - modified
 - staged
+- committed
 
 
 ##### Basics
