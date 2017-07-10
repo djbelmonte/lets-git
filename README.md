@@ -38,9 +38,6 @@
 ##### Additionals
 - patch
 - aliases
-
-
-##### Tips
 - pull --rebase
 - checkout -t origin/feature
 - always add trailing comma on a list if it's allowed
